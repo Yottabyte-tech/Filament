@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.leftbar {
+  display: flex;
+  width: 12vw;
+  height: 80vh;
+  border: 5px solid black;
+  border-radius: 10px;
+  position: fixed;
+  left: 2vw;
+  top: 10vh;
+  justify-content: center; /* Centers horizontally */
+
+}
+
+.home-button {
+  display: flex;
+  margin-top: 0.25vh;
+  width: 11.5vw;
+  height: 5vh;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: center; 
+  align-items: center;
+}
